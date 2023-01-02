@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Hero from "../components/hero";
 import StorySection from "../components/storySection";
-import { Container } from "../components/layout";
+import ServicesSection from "../components/servicesSection";
 
 export default function Home() {
   return (
@@ -17,6 +17,7 @@ export default function Home() {
       <main className="">
         <Hero />
         <StorySection />
+        <ServicesSection/>
       </main>
     </div>
   );

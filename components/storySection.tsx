@@ -4,7 +4,7 @@ import { Container } from "./layout";
 
 const StorySection: FC = () => {
   return (
-    <section className="d py-12">
+    <section className="py-12">
       <Container>
         <div className="text-center mb-6">
           <p className="text-4xl font-bold">our story</p>
