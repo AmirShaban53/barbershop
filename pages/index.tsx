@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Hero from "../components/hero";
+import StorySection from "../components/storySection";
+import { Container } from "../components/layout";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       </Head>
 
       <main className="">
+        <Hero />
+        <StorySection />
       </main>
     </div>
   );
