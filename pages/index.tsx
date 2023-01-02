@@ -1,10 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+
 import Hero from "../components/hero";
 import StorySection from "../components/storySection";
 import ServicesSection from "../components/servicesSection";
 import BarberSection from "../components/barberSection";
+import ContactSection from "../components/contactSection";
 
 export default function Home() {
   return (
@@ -20,6 +22,7 @@ export default function Home() {
         <StorySection />
         <ServicesSection/>
         <BarberSection/>
+        <ContactSection/>
       </main>
     </div>
   );
