@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Hero from "../components/hero";
 import StorySection from "../components/storySection";
 import ServicesSection from "../components/servicesSection";
+import BarberSection from "../components/barberSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Hero />
         <StorySection />
         <ServicesSection/>
+        <BarberSection/>
       </main>
     </div>
   );
