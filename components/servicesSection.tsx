@@ -3,7 +3,7 @@ import { Container } from "./layout";
 
 const ServicesSection: FC = () => {
   return (
-    <section className="my-8">
+    <section className="mb-24 pt-16 pb-8  bg-gradient-to-r from-zinc-900"  id="services">
       <Container>
         <div className="text-center mb-6">
           <p className="text-4xl font-bold">our services</p>
@@ -26,7 +26,7 @@ const Service: FC<{
   title?: string;
   pricing?: string;
   detail?: string;
-}> = ({title, pricing, detail}) => {
+}> = ({ title, pricing, detail }) => {
   return (
     <div className="col-span-2 py-6 border-b">
       <p className="text-4xl font-bold italic mb-1">haircut</p>
