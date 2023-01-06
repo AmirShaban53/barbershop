@@ -27,7 +27,7 @@ const StorySection: FC = () => {
           </p>
           <p className="text-2xl italic">how it all began.</p>
         </div>
-        <div className="story container flex scroll-rail" ref={ScrollElement}>
+        <div className=" flex scroll-rail" ref={ScrollElement}>
           {stories.map((story, index) => {
             return (
               <StoryCard
@@ -59,8 +59,8 @@ const StoryCard: FC<{ src: string; title: string; content: string }> = (
   props
 ) => {
   return (
-    <div className=" shrink-0 w-5/6 scroll-child flex h-80 mx-8 ">
-      <div className="relative basis-1/2">
+    <div className=" shrink-0 w-5/6 scroll-child md:flex mx-8 ">
+      <div className="relative h-56 md:h-72 basis-1/2">
         <Image
           src={props.src}
           fill
@@ -68,7 +68,7 @@ const StoryCard: FC<{ src: string; title: string; content: string }> = (
           style={{ objectFit: "cover" }}
         />
       </div>
-      <div className="basis-1/2 pl-4 border my-4">
+      <div className="basis-1/2 pl-4 py-8 border my-auto">
         <p className="font-bold text-3xl mb-4">{props.title}</p>
         <p className="text-lg">{props.content}</p>
       </div>

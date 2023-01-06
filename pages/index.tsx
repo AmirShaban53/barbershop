@@ -7,6 +7,7 @@ import StorySection from "../components/storySection";
 import ServicesSection from "../components/servicesSection";
 import BarberSection from "../components/barberSection";
 import ContactSection from "../components/contactSection";
+import ClientSection from "../components/clientSection";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <StorySection />
         <ServicesSection/>
         <BarberSection/>
+        <ClientSection/>
         <ContactSection/>
       </main>
     </div>

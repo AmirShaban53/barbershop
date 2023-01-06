@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { Container } from "./layout";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import {
   Facebook,
@@ -14,9 +15,11 @@ const ContactSection: FC = () => {
   return (
     <section className="pb-8 pt-16" id="contact">
       <Container>
-        <p className="text-4xl mb-6 uppercase font-bold">book an appointment</p>
-        <div className="grid grid-cols-12 gap-12">
-          <div className="col-span-6 ">
+        <p className="text-4xl mb-6 uppercase font-bold">
+          book an <span className="text-orange-700">appointment.</span>
+        </p>
+        <div className="grid grid-cols-6 gap-12">
+           <div className="col-span-6 md:col-span-3">
             <p className="text-xl mb-6">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Blanditiis atque sed modi nemo, voluptas ab accusantium quo
@@ -24,12 +27,15 @@ const ContactSection: FC = () => {
               eaque?
             </p>
             <div>
-              <button className="border text-2xl px-4 py-2 rounded-lg bg-black text-white">
+              <motion.button 
+              whileHover={{scale: 1.1}}
+              whileTap={{scale: 0.9}}
+              className="text-2xl px-4 py-2 rounded-lg bg-gradient-to-r from-orange-700 to-orange-400 text-white">
                 book now
-              </button>
+              </motion.button>
             </div>
-          </div>
-          <div className="col-span-6 ">
+          </div> 
+          <div className="col-span-6 md:col-span-3">
             <div className="mb-6">
               <p className="text-2xl font-bold mb-4">contact</p>
               <p className="my-3">
