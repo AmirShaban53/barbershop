@@ -11,7 +11,7 @@ const BarberSection = () => {
           <p className="text-4xl font-bold">
             Our <span className="text-orange-700">barbers.</span>
           </p>
-          <p className="text-2xl italic">Meet the people running the shop.</p>
+          <p className="text-2xl italic">Meet the people running the barbershop.</p>
         </div>
         <div className="grid grid-cols-6 gap-10">
           {barberList.map((barber, index) => {
