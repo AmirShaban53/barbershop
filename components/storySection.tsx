@@ -79,33 +79,33 @@ export default StorySection;
 
 const storyData = [
   {
-    src: "/place holder/1024.webp",
-    title: "Lorem, ipsum.",
+    src: "/images/barbers/founding.jpg",
+    title: "Founded in 2007",
     content:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur autem iusto necessitatibus illo exercitationem! Voluptatum tempore nesciunt, voluptas fugit dignissimos aspernatur illum quia sit labore officia eius odit eveniet ea! - first",
+      "Hotcut was founded in the year 2007 as a small family sallon, with nothing more than one seat, single machine and the passion and drive to build a successful and generational barbershop of the community.",
   },
   {
-    src: "/place holder/1024.webp",
-    title: "Lorem, ipsum.",
+    src: "/images/barbers/founder.jpg",
+    title: "Meet our founder",
     content:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur autem iusto necessitatibus illo exercitationem! Voluptatum tempore nesciunt, voluptas fugit dignissimos aspernatur illum quia sit labore officia eius odit eveniet ea!",
+      "Marcus Ederson was the first barber at hotcut and the founder as well. He laid the ground work that has led us this far. He started the barbershop inorder to help the community by provide a service. He retired in 2020",
   },
   {
-    src: "/place holder/1024.webp",
-    title: "Lorem, ipsum.",
+    src: "/images/barbers/sallon_stands.jpg",
+    title: "Our Expansion",
     content:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur autem iusto necessitatibus illo exercitationem! Voluptatum tempore nesciunt, voluptas fugit dignissimos aspernatur illum quia sit labore officia eius odit eveniet ea!",
+      "From nothing but a single seat sallon, we now expanded to a fully featured and staff barbershop. Able to take care of more that 7 clients at a time.",
   },
   {
-    src: "/place holder/1024.webp",
-    title: "Lorem, ipsum.",
+    src: "/images/barbers/trust.jpg",
+    title: "Build trust.",
     content:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur autem iusto necessitatibus illo exercitationem! Voluptatum tempore nesciunt, voluptas fugit dignissimos aspernatur illum quia sit labore officia eius odit eveniet ea! - last",
+      "We try our best to build a trust and bond with each and everyone of our clients. We prioritize the clients needs and requests above all so that you can keep coming back.",
   },
   {
-    src: "/place holder/1024.webp",
-    title: "Lorem, ipsum.",
+    src: "/images/barbers/youngbarber.jpg",
+    title: "Giving to community",
     content:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur autem iusto necessitatibus illo exercitationem! Voluptatum tempore nesciunt, voluptas fugit dignissimos aspernatur illum quia sit labore officia eius odit eveniet ea! - last",
+      "We give back to the community by teaching youth skills needed to be a barber. We always welcome young ones who would like to earn a living. \'say hello the emily btw\'",
   },
 ];

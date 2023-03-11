@@ -37,9 +37,7 @@ const Footer: FC = () => {
           <div className="col-span-6 md:col-span-3 lg:col-span-2">
             <p className="text-2xl font-bold mb-4 text-orange-700">contact</p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur  <br />
-              Exercitationem quia eveniet maxime totam  <br />
-              voluptatem voluptatum a odio porro quas.
+            Schedule an appointment with us for find <br /> us at out location any day of the week.
             </p>
           </div>
           <div className="col-span-6 md:col-span-3 lg:col-span-2">

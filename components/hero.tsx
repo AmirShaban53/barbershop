@@ -31,13 +31,14 @@ const Hero: FC = () => {
           >
             book now
           </motion.button>
-          <motion.button
+          <motion.a
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="border-2 text-2xl px-4 py-2 rounded-md mr-2 font-bold"
+            href="#services"
           >
             our services
-          </motion.button>
+          </motion.a>
         </Container>
       </div>
     </div>

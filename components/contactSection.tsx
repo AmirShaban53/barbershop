@@ -21,10 +21,7 @@ const ContactSection: FC = () => {
         <div className="grid grid-cols-6 gap-12">
            <div className="col-span-6 md:col-span-3">
             <p className="text-xl mb-6">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Blanditiis atque sed modi nemo, voluptas ab accusantium quo
-              impedit reprehenderit ullam aut, suscipit saepe minima numquam
-              eaque?
+              Schedule an appointment with us for find us at out location any day of the week.
             </p>
             <div>
               <motion.button 
