@@ -39,7 +39,7 @@ const ClientCard: FC<{
         />
         <div className="overlay  absolute w-full h-full bg-orange-800 bg-opacity-0 hover:bg-opacity-25 transition-all duration-300 group">
           <p className="text-xl text-center absolute -bottom-10 left-1/2 -translate-x-1/2 translate-y-1/2   group-hover:bottom-1/2 transition-all duration-700 italic ">
-            "{comment}"
+            {comment}
             <br />
             <span className="font-bold mt-6">- {name}</span>
           </p>
